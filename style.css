@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box; 
+}
+body{
+
+	margin: 0px;
+}
+#body-header{
+	background-image: url(images/header-background.jpg);
+	height: 100vh;
+	background-position: center;
+	color: white;
+}
+nav ul, #social-icons{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+
+}
+nav ul li, #social-icons li{
+	margin: 10px;
+}
+
+#intro-text{
+	margin-top: 20vh;
+	text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
